@@ -7,6 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49444123-f582-441b-b4dd-bbce18334bc8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jeecg/destiny.income/controller/YjmdMaterialController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jeecg/destiny.income/controller/YjmdProfileSaleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jeecg/destiny.income/entity/YjmdMaterialEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jeecg/destiny.income/entity/YjmdProfileSaleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jeecg/destiny.income/service/YjmdMaterialServiceI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jeecg/destiny.income/service/YjmdProfileSaleServiceI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jeecg/destiny.income/service/impl/YjmdMaterialServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jeecg/destiny.income/service/impl/YjmdProfileSaleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/webpage/com/jeecg/destiny.income/yjmdMaterial-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/webpage/com/jeecg/destiny.income/yjmdMaterial-update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/webpage/com/jeecg/destiny.income/yjmdMaterialList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/webpage/com/jeecg/destiny.income/yjmdProfileSale-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/webpage/com/jeecg/destiny.income/yjmdProfileSale-update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/webpage/com/jeecg/destiny.income/yjmdProfileSaleList.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jeecg/destiny.income/controller/YjmdIncomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="93" column="17" lean-forward="true" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
+            <state relative-caret-position="176">
+              <caret line="103" column="38" selection-start-line="103" selection-end-line="104" />
             </state>
           </provider>
         </entry>
@@ -32,6 +46,51 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="28">
               <caret line="75" column="42" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/dbconfig.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jeecg/destiny.income/controller/YjmdProfileSaleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="102" column="32" selection-start-line="102" selection-end-line="103" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jeecg/destiny.income/controller/YjmdMaterialController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="103" column="45" lean-forward="true" selection-start-line="103" selection-start-column="45" selection-end-line="103" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jeecg/destiny.income/entity/YjmdMaterialEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="84" column="39" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jeecg/destiny.income/entity/YjmdProfileSaleEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="84" column="48" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -61,6 +120,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/webpage/com/jeecg/destiny.income/yjmdIncomeList.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeecg/destiny.student/controller/YjmdStudentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeecg/destiny.income/controller/YjmdIncomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jeecg/destiny.income/controller/YjmdProfileSaleController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jeecg/destiny.income/controller/YjmdMaterialController.java" />
       </list>
     </option>
   </component>
@@ -72,8 +133,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="503" />
-    <option name="y" value="33" />
+    <option name="x" value="576" />
+    <option name="y" value="54" />
     <option name="width" value="1214" />
     <option name="height" value="727" />
   </component>
@@ -269,7 +330,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554016222283" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554020769806" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -413,15 +474,15 @@
       <workItem from="1553254039282" duration="554000" />
       <workItem from="1553326078613" duration="1323000" />
       <workItem from="1554013301984" duration="145000" />
-      <workItem from="1554013581422" duration="2066000" />
+      <workItem from="1554013581422" duration="5005000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12121000" />
+    <option name="totallyTimeSpent" value="15060000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="338" y="46" width="1214" height="727" extended-state="0" />
+    <frame x="100" y="53" width="1214" height="727" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22269624" />
@@ -531,13 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dbconfig.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeecg/demo/controller/JeecgListDemoController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18240">
@@ -601,10 +655,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dbconfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeecg/destiny.income/controller/YjmdIncomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="93" column="17" lean-forward="true" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
+        <state relative-caret-position="176">
+          <caret line="103" column="38" selection-start-line="103" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeecg/destiny.income/entity/YjmdProfileSaleEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="84" column="48" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeecg/destiny.income/controller/YjmdProfileSaleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="102" column="32" selection-start-line="102" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeecg/destiny.income/entity/YjmdMaterialEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="84" column="39" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeecg/destiny.income/controller/YjmdMaterialController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="103" column="45" lean-forward="true" selection-start-line="103" selection-start-column="45" selection-end-line="103" selection-end-column="45" />
         </state>
       </provider>
     </entry>
