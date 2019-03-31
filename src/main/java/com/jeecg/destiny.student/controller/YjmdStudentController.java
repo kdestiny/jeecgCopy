@@ -121,7 +121,7 @@ public class YjmdStudentController extends BaseController {
 		message = "报班学生表删除成功";
 		try{
 			yjmdStudentService.delete(yjmdStudent);
-			YjmdIncomeEntity yjmdIncomeEntity = systemService.findUniqueByProperty(YjmdIncomeEntity.class, "stu_id", yjmdStudent.getId());
+			YjmdIncomeEntity yjmdIncomeEntity = systemService.findUniqueByProperty(YjmdIncomeEntity.class, "stuId", yjmdStudent.getId());
 			yjmdIncomeServiceI.delete(yjmdIncomeEntity);
 			systemService.addLog(message, Globals.Log_Type_DEL, Globals.Log_Leavel_INFO);
 		}catch(Exception e){

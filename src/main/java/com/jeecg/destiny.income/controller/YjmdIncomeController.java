@@ -100,6 +100,8 @@ public class YjmdIncomeController extends BaseController {
 		}
 		cq.add();
 		this.yjmdIncomeService.getDataGridReturn(cq, true);
+
+		dataGrid.setFooter("stuName:合计,teachFund,groupFund,recommendFund,salerPercentage,otherFund");
 		TagUtil.datagrid(response, dataGrid);
 	}
 	
